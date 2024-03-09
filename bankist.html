@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <script src="working.js"></script>
+
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <title>Bankist | When banking meets minimalist </title>
+</head>
+<body onload="showSlides()">
+    
+        <!-- TOP NAVIGATION BAR -->
+        <div class="topnav">
+            <img src="logo (1).png">
+            <div class="topnav-buttons">
+                <a href="#features" class="fade-out">Features</a>
+                <a href="#operations" class="fade-out">Operations</a>
+                <a href="#testimonials" class="fade-out">Testimonials</a>
+                <button type="button" class="open-modal fade-in" onclick="openModal()">Open Account</button>
+            </div>    
+        </div>
+    
+        <!-- FIRST PAGE-INTRODUCTION -->
+        <div class="intro">
+            <p>When <span class="highlight">banking</span> meets <br><span class="highlight">minimalist</span><br>
+                <span class="subtext">A simpler banking experience for a simpler life.</span><br>
+                <a onclick="slideDown()" id="learnMore" href="#features">Learn More &#129047;</a></p>
+            
+            <img src="hero.png">
+        </div>
+
+    
+    
+    
+
+    <!-- FEATURES -->
+    <br id="features">
+    <div class="features" >
+        <h3>FEATURES</h3>
+        <p>Everything you need in a modern bank and more.</p>
+
+        <table class="responsive-table">
+        <tr>
+            <td class="table-img" ><img src="digital.jpg" loading="lazy"></td>
+            <td><h4>100% Digital bank</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ad dolorum possimus, nisi ullam expedita facere vitae reprehenderit accusantium. Modi, necessitatibus voluptas, perferendis in at eveniet nihil sapiente eligendi assumenda deleniti provident unde nemo ut fugiat illum non quae. Voluptas pariatur dolore cupiditate quas vel mollitia sit, eum quibusdam asperiores?</td>
+        </tr>
+        <tr>
+            <td><h4>Watch your money grow</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam architecto obcaecati veniam. Id, suscipit voluptatibus eos amet autem non perferendis pariatur, ut doloremque esse, similique omnis aut excepturi totam reprehenderit dolorum praesentium ullam! Mollitia, consequuntur! Harum quas totam possimus in dignissimos pariatur veritatis? Voluptate esse asperiores laudantium nemo aliquam!</td>
+            <td class="table-img" "><img src="grow.jpg" loading="lazy"></td>
+        </tr>
+        <tr>
+            <td class="table-img" "><img src="card.jpg" loading="lazy" ></td>
+            <td><h4>Free Debit Card included</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad modi sunt explicabo itaque, eveniet ex. Maxime facilis velit, repudiandae at eaque vitae quibusdam. Quod aut doloribus eius necessitatibus magnam distinctio voluptas odio molestiae dicta. Ratione obcaecati blanditiis magni quae ipsam voluptatum provident, minus, quisquam at distinctio fugiat quod, impedit accusamus!</td>
+            
+        </tr>
+        </table>
+    </div>
+
+    <!-- OPERATIONS -->
+    <br id="operations">
+    <div class="operations" >
+        <h3>OPERATIONS</h3>
+        <p>Everything as simple as possible, but no simpler.<br>Click to know more &#129155;</p>
+
+        <div class="op-buttons">
+            <button id="btn-01" class="fade-in" onclick="displayPara1()">01 Instant Transfers</button>
+            <button id="btn-02" class="fade-in" onclick="displayPara2()" >02 Instant Loans</button>
+            <button id="btn-03" class="fade-in" onclick="displayPara3()">03 Instant Closing</button>   
+        </div>
+        <div class="button-text">
+            <p id="final">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quasi molestiae doloribus a perferendis, cum harum quam pariatur corporis fuga.</p>
+
+        </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <br id="testimonials">
+    <div class="testimonials" >
+        <h3>NOT SURE YET?</h3>
+        <p>Hear from your fellow bankers:</p>
+
+        <div class="slideshow-container">
+
+        
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img src="mexico.jpg" style="width:100%; height: 70vh; ">
+              <div class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati suscipit porro similique veniam non! Est?</div>
+              <img id="user" src="user-1.jpg"><h2>Antonio Gustavo</h2>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="usa.jpg" style="width:100%; height: 70vh; ">
+              <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, hic rem. Dolorem voluptates incidunt odit eveniet harum deserunt laborum laboriosam.</div>
+              <img id="user" src="user-2.jpg"><h2>Jane Eyre</h2>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="spain.jpg" style="width:100%; height: 70vh; ">
+              <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, consequatur? Recusandae consectetur enim, dolor placeat omnis assumenda tenetur ab odit ipsa eveniet deleniti, aspernatur, necessitatibus est. Maiores nostrum labore cum.</div>
+              <img id="user" src="user-3.jpg"><h2>Olio Saltzman</h2>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="india.jpg" style="width:100%; height: 70vh; ">
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime harum inventore omnis dicta quo, alias, autem, consequatur voluptatibus placeat fugiat quibusdam saepe! Esse, ea fuga!</div>
+                <img id="user" src="user-4.jpg"><h2>Siddharth Gupta</h2>
+              </div>
+          
+            
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <button class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          
+          <div class="dotDisplay" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Join us today and make your life easy.</p>
+        <button type="button" class="open-modal fade-in" onclick="openModal()">Open your account today!</button>
+        <div class="footer-anchor">
+            <a href="">Terms of use</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Blog</a>
+            <a href="">Contact us</a>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        
+        <h2>Please enter details and soon you'll receive our mail</h2>
+        <label for="fname" class="name">Full Name</label><br>
+        <input type="text" id="name" ><br>
+        <label for="email" class="email">Email address</label><br>
+        <input type="text" id="email"><br>
+        
+        <div class="modal-button">
+            <button type="submit" id="modal-button" onclick="validateForm()" >Submit</button>
+            <button type="submit" id="modal-clear" onclick="clearModal()" >Clear</button>
+            <button id="close-modal" onclick="closeModal()">Close</button>
+
+        </div>
+
+        <p id="result"></p>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="openModal()">
+
+    </div>
+
+
+
+
+    
+
+
+    
+</body>
+</html>
